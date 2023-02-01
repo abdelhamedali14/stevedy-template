@@ -1,0 +1,45 @@
+@import "../../assets/sass/mixin";
+$mainColor: #ff6057;
+$seconColor: #7c1c80;
+
+.market-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0rem;
+  @include mediaQ(md) {
+    padding: 1.25rem;
+  }
+  .market-circle {
+    background-color: $mainColor;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .market-item-wrapper {
+    display: flex;
+    gap: 1.5rem;
+
+    .market-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .special-line {
+        width: 0.25rem;
+        height: 100%;
+        border-radius: 10px;
+        background-color: gray;
+      }
+    }
+    .market-content {
+
+        display: flex;
+        gap: 1.25rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+  }
+}

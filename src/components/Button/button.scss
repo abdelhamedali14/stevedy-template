@@ -1,0 +1,33 @@
+
+@import "../../assets/sass/mixin";
+$mainColor: #ff6057;
+$seconColor: #7c1c80;
+
+.myButton {
+  padding: 0.6rem 3rem;
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  color: none;
+  background: radial-gradient(to right $mainColor, $seconColor);
+
+  
+  
+}
+.gradiant {
+    background-image: linear-gradient(to right ,#ff6057,#7c1c80);
+    color: #fff;
+    &:hover{
+      background-color: #fff ;
+      color: $mainColor;
+    }
+  }
+  .white {
+    background-color: #fff;
+    color: #ff6057 ;
+    font-size: 1rem;
+    &:hover{
+     color: #fff ;
+     background-color: $mainColor;
+    }
+  }

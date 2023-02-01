@@ -1,0 +1,12 @@
+@import "../../assets/sass/mixin";
+
+.cusetomers-wrappe {
+  .customer-img-wrapper {
+    .customer-img {
+      @include mediaQ(sm) {
+        width: 50%;
+        background-color: darkgreen;
+      }
+    }
+  }
+}

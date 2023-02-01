@@ -1,0 +1,22 @@
+.about-success-wrapper {
+  h2 {
+    color: #3b3a3a;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+  .about-success-text {
+    color: #8f8f8f;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+  }
+  .learn-about-link {
+    color: #ff6057 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}

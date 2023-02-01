@@ -1,0 +1,27 @@
+$mainColor: #ff6057;
+$seconColor: #7c1c80;
+
+.ourNumbers-wrapper {
+  .ourNumbers-header {
+    width: 312px;
+    margin: 0 auto;
+    h2 {
+      font-size: 2.3rem;
+      line-height: 3rem;
+      font-weight: bold;
+      color: #3b3a3a;
+      text-align: center;
+    }
+  }
+  .ourNumbers-content {
+    .ourNumber-item {
+      text-align: center;
+      h3 {
+        color: $mainColor;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

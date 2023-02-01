@@ -1,0 +1,59 @@
+@import "../../assets/sass/mixin";
+$mainColor: #ff6057;
+$seconColor: #7c1c80;
+.navBar-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .logo {
+    width: 150px;
+    height: 50px;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .nav-Links {
+    list-style: none;
+    display: flex;
+    color: white;
+    @include mediaQ(xsm) {
+      display: none;
+    }
+    @include mediaQ(sm) {
+        display: none;
+      }
+      @include mediaQ(md) {
+        display: flex;
+      }
+    li {
+      padding: 0rem  0.8rem;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      &:hover {
+       color: $mainColor;
+       background-color: #fff;
+        transition: all 0.1s;
+        border-radius: 1rem;
+      }
+    }
+  }
+  .nav-btn{
+    @include mediaQ(xsm) {
+      display: none;
+    }
+    @include mediaQ(sm) {
+        display: none;
+      }
+      @include mediaQ(md) {
+        display: flex;
+      }
+      @include mediaQ(md){
+        display: flex;
+    }
+
+
+  }
+}

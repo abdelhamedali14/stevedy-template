@@ -1,0 +1,44 @@
+@import "../../assets/sass/mixin";
+$mainColor: #ff6057;
+$seconColor: #7c1c80;
+
+.burgerIcon-wrapper {
+  position: relative;
+  z-index: 10;
+
+  .generator-icon {
+    width: 3rem;
+    height: 3rem;
+    color: $mainColor;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    @include mediaQ(md) {
+      display: none;
+    }
+  }
+  .dropDown-links {
+    list-style: none;
+    padding: 1.5rem 2.5rem;
+    position: absolute;
+    top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 1rem;
+    li {
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0rem 0.5rem;
+      &:hover {
+        background-color: $mainColor;
+        color: #fff;
+        transition: all 0.1s;
+        border-radius: 1rem;
+      }
+    }
+  }
+}

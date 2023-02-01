@@ -1,0 +1,60 @@
+
+
+
+$mainColor: #ff6057;
+
+.footer-wrapper {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  h6 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .study {
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.9rem;
+    }
+  }
+  .services {
+  
+    p {
+      font-size: 0.9rem;
+      font-weight: 400;
+      width: 55%;
+      line-height: 1.5rem;
+    }
+  }
+  .signUp-with-mail{
+    #subscribeBtn {
+        position: absolute;
+        width: 40%;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding: 10px 20px;
+        background-color: $mainColor;
+        border-color: $mainColor;
+        border-radius: 40px;
+        color: white;
+      }
+      #subscribeArea {
+        width: 100%;
+        padding: 10px;
+        color: white;
+        border-radius: 40px;
+        border: 1px solid #1e202b;
+      }
+
+
+
+  }
+}

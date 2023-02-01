@@ -1,0 +1,28 @@
+@import "../../assets/sass/mixin";
+$mainColor: #ff6057;
+$seconColor: #7c1c80;
+.platfom-wrapper {
+  position: relative;
+  .left {
+    left: -850px;
+  }
+  .right {
+    right: -850px;
+  }
+  .background {
+    position: absolute;
+    z-index: 0;
+    top: -250px;
+    img {
+      width: 1211px;
+      height: 1116px;
+    }
+  }
+  .platform-text {
+    z-index: 10;
+  }
+
+  .dashpord-wrapper {
+    z-index: 10;
+  }
+}
