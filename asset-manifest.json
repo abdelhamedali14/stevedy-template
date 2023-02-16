@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/stevedy-template/static/css/main.40ab9663.css",
-    "main.js": "/stevedy-template/static/js/main.e785d0c0.js",
+    "main.css": "/stevedy-template/static/css/main.af65cd4d.css",
+    "main.js": "/stevedy-template/static/js/main.6a086cc1.js",
     "static/js/787.e048cb71.chunk.js": "/stevedy-template/static/js/787.e048cb71.chunk.js",
     "static/media/left-square (1).png": "/stevedy-template/static/media/left-square (1).5c31e9006f0c183ad72f.png",
     "static/media/bg1.png": "/stevedy-template/static/media/bg1.1e12f2f5c692125623df.png",
+    "static/media/Poppins-Medium.ttf": "/stevedy-template/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-Bold.ttf": "/stevedy-template/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/right-quare.png": "/stevedy-template/static/media/right-quare.b385a45bb1220e1bd828.png",
     "static/media/dashboard.png": "/stevedy-template/static/media/dashboard.7606c88953eb3fa98b31.png",
     "static/media/testImg.png": "/stevedy-template/static/media/testImg.6c71168fa21ea0f72b8a.png",
     "static/media/Logo.png": "/stevedy-template/static/media/Logo.1044060ad1a7b904015b.png",
+    "static/media/icon2.svg": "/stevedy-template/static/media/icon2.dee3cfa52947899c5cafee995697072f.svg",
     "index.html": "/stevedy-template/index.html",
-    "main.40ab9663.css.map": "/stevedy-template/static/css/main.40ab9663.css.map",
-    "main.e785d0c0.js.map": "/stevedy-template/static/js/main.e785d0c0.js.map",
+    "static/media/icon1.svg": "/stevedy-template/static/media/icon1.5ca1c4dab42cc8a744c0d4dab512b719.svg",
+    "static/media/icon4.svg": "/stevedy-template/static/media/icon4.7c7089d84e12190c7241a0c6176e20ec.svg",
+    "static/media/icon3.svg": "/stevedy-template/static/media/icon3.48572920045528489b79f19f7c662408.svg",
+    "main.af65cd4d.css.map": "/stevedy-template/static/css/main.af65cd4d.css.map",
+    "main.6a086cc1.js.map": "/stevedy-template/static/js/main.6a086cc1.js.map",
     "787.e048cb71.chunk.js.map": "/stevedy-template/static/js/787.e048cb71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40ab9663.css",
-    "static/js/main.e785d0c0.js"
+    "static/css/main.af65cd4d.css",
+    "static/js/main.6a086cc1.js"
   ]
 }
