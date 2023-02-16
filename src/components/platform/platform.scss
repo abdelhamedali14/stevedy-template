@@ -3,6 +3,19 @@ $mainColor: #ff6057;
 $seconColor: #7c1c80;
 .platfom-wrapper {
   position: relative;
+  .left-contain {
+    position: relative;
+    @include mediaQ(xsm) {
+      left: 0px;
+    }
+    @include mediaQ(sm) {
+      left: 0px;
+    }
+    @include mediaQ(md) {
+      left: -60px;
+    }
+  }
+
   .left {
     left: -850px;
   }

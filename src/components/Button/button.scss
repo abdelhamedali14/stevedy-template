@@ -1,4 +1,3 @@
-
 @import "../../assets/sass/mixin";
 $mainColor: #ff6057;
 $seconColor: #7c1c80;
@@ -9,25 +8,23 @@ $seconColor: #7c1c80;
   outline: none;
   border: none;
   color: none;
-  background: radial-gradient(to right $mainColor, $seconColor);
-
-  
-  
 }
 .gradiant {
-    background-image: linear-gradient(to right ,#ff6057,#7c1c80);
-    color: #fff;
-    &:hover{
-      background-color: #fff ;
-      color: $mainColor;
-    }
-  }
-  .white {
+  background: rgba(124, 28, 128, 0.66);
+  background: linear-gradient(
+    -90deg,
+    rgba(124, 28, 128, 0.66) 0%,
+    #ff6057 100%
+  );
+  color: #fff;
+  &:hover {
     background-color: #fff;
-    color: #ff6057 ;
-    font-size: 1rem;
-    &:hover{
-     color: #fff ;
-     background-color: $mainColor;
-    }
   }
+}
+.white {
+  background-color: #fff;
+  color: #ff6057;
+  font-size: 1rem;
+  &:hover {
+  }
+}

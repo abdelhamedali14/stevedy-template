@@ -1,0 +1,17 @@
+@import "../../assets/sass/mixin";
+
+.marketResearch-wrapper {
+  .marketResearch-wrapper-text {
+    @include mediaQ(xsm) {
+      margin-bottom: 4rem;
+    }
+    @include mediaQ(sm) {
+      margin-bottom: 4rem;
+    }
+    @include mediaQ(md) {
+        margin-bottom: 0rem;
+      }
+  }
+  
+  
+}

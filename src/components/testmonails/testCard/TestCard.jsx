@@ -13,16 +13,16 @@ export const TestCard = () => {
                     </div>
                     <div className="card-content">
                         <h4>Florrie Jacobs</h4>
-                        <span>Florrie Jacobs</span>
-                        <p>  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        <span className=''>CEO of Company</span>
+                        <p className=''>  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                             sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore
                             magna aliquyam erat</p>
 
-                        <div className="card-rating d-flex">
+                        <div className="card-rating d-flex pt-3">
                             {rating.map((star, i) => {
                                 return <div className="card-icon">
-                                    <star.icon />
+                                    <star.icon  className='star-icon'/>
                                 </div>
                             })}
                         </div>

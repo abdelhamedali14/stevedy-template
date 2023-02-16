@@ -27,7 +27,7 @@ export const NavBar = () => {
                     setToggle={setToggle}
                 />
                 <div className='m-0 p-0 nav-btn'>
-                    <Button content={"hello"} color={"gradiant"} />
+                    <Button content={"About u"} color={"gradiant"} />
                 </div>
 
             </div>

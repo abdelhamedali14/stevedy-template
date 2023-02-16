@@ -17,7 +17,7 @@ export default function BurgerIcon({ toggle, setToggle, navLinks }) {
                   <li
                      key={i}
                      className={` ${
-                        i === navLinks.length - 1 ? "me-0" : "mb-4"
+                        i === navLinks.length - 1 ? "me-0" : "mb-3"
                      } text-gray-600`}
                   >
                      {nav}</li>

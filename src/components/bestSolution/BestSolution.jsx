@@ -19,8 +19,8 @@ export const BestSolution = () => {
                   {solutionsData.map((item,i)=>{
                     return   <div className="col-lg-6  "key={i} >
                     <div className="solution-item my-3">
-                    <div className={` sol-icon ${item.bg} text-white`}>
-                    <item.icon className={` fs-1 `}/>
+                    <div className={` sol-icon ${item.bg} text-white my-3 `}>
+                    <img src={item.icon} alt="icon" className='' />
                         </div>
                         <p className='text-capitalize fs-5'>  {item.title}</p>
                         <div className='my-2'><Line/></div>

@@ -9,13 +9,14 @@ export const MarketResearch = () => {
             <div className="marketResearch-wrapper py-5">
                 <div className="container">
                     <div className="row justify-content-around align-items-center">
-                        <div className="col-lg-5  ">
+                        <div className="col-lg-5  marketResearch-wrapper-text  ">
                             <AboutSuccess 
                             header={"Acceleration Process to Grow Your Business"} 
                             link={true}
                             button={true}
                             buttonColor={"gradiant"}
                             ButtonContent={"About us"}
+                            className="text-bold"
                             />
                         </div>
                         <div className="col-lg-5 ">

@@ -12,10 +12,10 @@ export const Hero = () => {
         <NavBar />
         <div className="container">
             <div className="row justify-content-between align-items-center ">
-                <div className="col-md-4">
+                <div className="col-md-6">
                     <TextHolder/>
                 </div>
-                <div className="col-md-7 image-hero-wrapper  ">
+                <div className="col-md-6 image-hero-wrapper  ">
                     <Dashpord/>
                 </div>
             </div>

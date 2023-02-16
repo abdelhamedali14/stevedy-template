@@ -14,8 +14,8 @@ export default function AboutSuccess({ header ,button,link , buttonColor ,Button
                     et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
                     no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
                     {!link? <div className="learn-about-link ">
-                    <p>Learn About Our Success  </p>
-                    <FiArrowRight/>
+                    <p className="mb-0">Learn About Our Success  </p>
+                    <FiArrowRight className="arrow"/>
                 </div>:""}
                 {button?<Button content={ButtonContent} color={buttonColor} />:""}
             

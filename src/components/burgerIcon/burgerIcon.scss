@@ -5,39 +5,45 @@ $seconColor: #7c1c80;
 .burgerIcon-wrapper {
   position: relative;
   z-index: 10;
-
+  right: 30px;
   .generator-icon {
     width: 3rem;
     height: 3rem;
     color: $mainColor;
     color: #fff;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     @include mediaQ(md) {
       display: none;
     }
   }
   .dropDown-links {
     list-style: none;
-    padding: 1.5rem 2.5rem;
+    width: fit-content;
+    padding: 1.5rem 1rem;
     position: absolute;
-    top: 5rem;
+    top: 3rem;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    text-align: start;
     background-color: #fff;
     border-radius: 1rem;
     li {
       cursor: pointer;
-      font-size: 1rem;
+      font-size: 0.9rem;
       font-weight: 600;
-      padding: 0rem 0.5rem;
+      hyphens: manual;
+      width: max-content;
+      white-space: nowrap;
+      padding: 0.1rem 0.5rem;
+      letter-spacing: 0px;
+      
       &:hover {
         background-color: $mainColor;
         color: #fff;
-        transition: all 0.1s;
-        border-radius: 1rem;
+        transition: all 0.3s;
+        border-radius: 0.5rem;
       }
     }
   }

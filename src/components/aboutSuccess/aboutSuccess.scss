@@ -14,9 +14,16 @@
   .learn-about-link {
     color: #ff6057 !important;
     display: flex;
-    justify-content: space-between;
+    text-align: start;
     align-items: center;
     font-size: 1rem;
     font-weight: 700;
+  p{
+    padding-right: 2rem;
+  }
+    .arrow{
+      font-weight: bolder;
+      margin: 0 1rem;
+    }
   }
 }

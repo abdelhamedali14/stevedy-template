@@ -13,8 +13,9 @@ export const Platfom = ({ direction }) => {
         <div className={`background  ${direction === "left" ? "left" : "right"}`}>
           <img src={direction === "left" ? leftSquare : rightSquare} alt="" />
         </div>
-        <div className="container">
-          {direction === "left" ? <div className="row justify-content-between align-items-center">
+        {direction === "left" ?
+          <div className="container-fluid left-contain "> 
+           <div className="row justify-content-between align-items-center   ">
             <div className="col-lg-7 dashpord-wrapper">
               <Dashpord />
             </div>
@@ -22,18 +23,23 @@ export const Platfom = ({ direction }) => {
               <div className='py-3'> <Line /></div>
               <AboutSuccess header={"The best business solution for you"} link={false} />
             </div>
-          </div> : <div className="row justify-content-between align-items-center">
-            <div className="col-lg-4 platform-text">
-              <div className='py-3'> <Line /></div>
-              <AboutSuccess header={"The best business solution for you"} link={false} />
+          </div>  </div> :
+          <div className="container">
+            <div className="row justify-content-around align-items-center ">
+              <div className="col-lg-5 platform-text">
+                <div className='py-3'> <Line /></div>
+                <AboutSuccess header={"The best business solution for you"} link={false} />
+              </div>
+              <div className="col-lg-7 dashpord-wrapper">
+                <Dashpord />
+              </div>
+
             </div>
-            <div className="col-lg-7 dashpord-wrapper">
-              <Dashpord />
-            </div>
+
 
           </div>}
 
-        </div>
+
 
       </div>
 

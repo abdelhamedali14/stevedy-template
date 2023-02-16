@@ -1,7 +1,10 @@
-import { ImStatsDots } from "react-icons/im";
-import { BsFillBootstrapFill } from "react-icons/bs";
-import { MdHighQuality } from "react-icons/md";
-import { RiHandbagFill } from "react-icons/ri";
+
+//icons 
+import icon1 from "../../assets/images/icon1.svg";
+import icon2 from "../../assets/images/icon2.svg";
+import icon3 from "../../assets/images/icon3.svg";
+import icon4 from "../../assets/images/icon4.svg";
+//data images
 import client1 from "../../assets/images/client-1.png";
 import client2 from "../../assets/images/client-2.png";
 import client3 from "../../assets/images/client-3.png";
@@ -13,22 +16,22 @@ export const navLinks = ["Browser", "Bootcamps", "How it Works", "Testmonails"];
 
 export const solutionsData = [
   {
-    icon: ImStatsDots,
+    icon: icon1,
     title: "scale your activity",
     bg: "orange",
   },
   {
-    icon: BsFillBootstrapFill,
+    icon: icon2,
     title: "bootcamps",
     bg: "blue",
   },
   {
-    icon: MdHighQuality,
+    icon: icon3,
     title: "high quality",
     bg: "purple",
   },
   {
-    icon: RiHandbagFill,
+    icon: icon4,
     title: "get certication",
     bg: "green",
   },
@@ -67,4 +70,3 @@ export const rating = [
   { icon: AiFillStar },
   { icon: AiFillStar },
 ];
-
